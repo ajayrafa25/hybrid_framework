@@ -1,0 +1,20 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html
+
+version: 2
+
+build:
+  os: ubuntu-24.04
+  tools:
+    python: "3.10"   # RTD stable version; 3.13 may not be supported yet
+
+sphinx:
+  configuration: docs/conf.py
+
+# Install dependencies required to build documentation
+python:
+  install:
+    - requirements: docs/requirements.txt
+    - method: pip
+      path: .   # install your hybrid framework itself (so autodoc can import it)
