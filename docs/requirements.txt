@@ -1,0 +1,7 @@
+# Sphinx + extensions
+sphinx
+sphinx-rtd-theme
+myst-parser        # optional, for Markdown support
+sphinx-autodoc-typehints
+sphinx-copybutton
+sphinx-design      # optional, for nicer UI
