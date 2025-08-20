@@ -1,7 +1,7 @@
 import os
 import sys
 
-project = "Hybrid Framework"
+project = "w"
 author = "Your Team"
 release = "0.1"
 
